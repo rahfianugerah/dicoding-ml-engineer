@@ -1,21 +1,38 @@
-![Maintenance]( https://img.shields.io/badge/Maintenance-Yes-green)
-![Python](https://img.shields.io/badge/Python-3670A0?&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?&logo=TensorFlow&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TFX-%23FF6F00.svg?&logo=TensorFlow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?&logo=Keras&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?&logo=Pandas&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?logo=TensorFlow&logoColor=white)
+![NumPy](https://img.shields.io/badge/Numpy-%23013243.svg?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?logo=pandas&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?logo=Keras&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?logo=Matplotlib&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/Scikit--learn-%23F7931E.svg?logo=scikit-learn&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?logo=scipy&logoColor=%white)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/4a148967-3291-44b6-99f7-59c2ca3c500f" height=150/>
-  <h3><b>Machine Learning Operations</b></h3>
-  <p>
-    A repository created to focus on the development and implementation of Machine Learning Operations (MLOps) pipelines
-  </p>
+<div align=center>
+  <h3>Machine Learning Engineer (2024) Learning Path by Dicoding - Course Submissions, Code Resources, and Docs</h3>
 </div>
 
----
-### Project Overview
-<p align="justify">
-  The Machine Learning Operations (MLOps) Pipeline project is designed to enhance the deployment and management of machine learning models by integrating automation and continuous improvement practices. This comprehensive approach ensures models are efficiently deployed and maintained.
+#### Overview
+
+<p align=justify>
+  This repository showcases all my work in the Machine Learning Path, covering course submissions, code resources, and documentations. 
 </p>
+
+<div align=center>
+  <h3>Table of Contents</h3>
+  <h4>Course Submissions & Code Resources</h4>
+</div>
+
+<div align=center>
+  
+| Courses | My Submissions |
+|---|---|
+| Learn Machine Learning for Beginners | [Click here!]() |
+| Learn Machine Learning Developments | [Click here!]() |
+| Applied Machine Learning | [Click here!]() |
+| Machine Learning Operations (MLOps) | [Click here!]() |
+
+</div>
+
+#### Project Author
+GitHub: [@rahfianugerah](https://www.github.com/rahfianugerah)
+
