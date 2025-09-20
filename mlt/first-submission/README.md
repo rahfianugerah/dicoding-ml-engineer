@@ -34,10 +34,10 @@ In the process of clarifying the problem, several problem statements have been i
 
 ### Solution Statements
 - Analyze, explore, and process the data by visualizing the data to get an idea of how the data is. The following is the analysis that can be done:
-  1. Handle missing values in the data
-  2. Finding correlations in the data to find dependant variables and independent variables
-  3. Handle outliers in the data using the IQR Method
-  4. Normalizing the data especially for numeric features using standard scaler
+  - Handle missing values in the data
+  - Finding correlations in the data to find dependant variables and independent variables
+  - Handle outliers in the data using the IQR Method
+  - Normalizing the data especially for numeric features using standard scaler
 
 - Create a classification model using K-Nearest Neighbors (KNN) and RandomForest classifier for determining heart failure patients based on a predefined dataset.
 
@@ -216,8 +216,10 @@ This stage encompasses several key steps, including data selection, outliers han
     <div align="justify">
       Outliers are data points that deviate significantly from the majority of the data. They can occur due to variability in the data, errors in data collection, or they may represent anomalies that are of particular interest. Handling outliers is a crucial step in data preprocessing because outliers can significantly skew and mislead statistical analyses and machine learning models. In this project, outliers will be removed by the IQR method. the following is the formula for IQR:
 
-      $$IQR=Q3−Q1$$
-
+      <p align="center">
+          $$IQR=Q3−Q1$$
+      </p>
+      
       Variables:
       - Q1 (the first quartile) is the median of the lower half of the dataset (25th percentile).
       - Q3 (the third quartile) is the median of the upper half of the dataset (75th percentile).
@@ -251,10 +253,10 @@ This stage encompasses several key steps, including data selection, outliers han
     <div align="justify">
       Dataset normalization, especially using the Z-score method, is an important process in data preprocessing for machine learning and statistical analysis. Z-score normalization changes the values ​​in the dataset so that they have a mean (average) of 0 and a standard deviation of 1. The following are the reasons why this normalization process needs to be carried out and the z-score formula:
 
-      $$
-      Z = \frac{x - \mu}{\sigma}
-      $$
-
+      <p align="center">
+        $$Z = \frac{x - \mu}{\sigma}$$
+      </p>
+      
       Variables:
       - $x$ is the value,
       - $μ$ is the mean of the population,
@@ -353,51 +355,47 @@ This stage discusses the machine learning model used to solve the problem. This 
       Accuracy metrics serve to measure how many of all correct predictions were made by the model.
 
       Formula:
-
-      $$
-      \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
-      $$
+      <p align="center">
+        $$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
+      </p>
       
       - $TP$ (True Positive): The number of instances correctly predicted as positive.
       - $TN$ (True Negative): The number of instances correctly predicted as negative.
       - $FP$ (False Positive): The number of instances that were incorrectly predicted as positive.
       - $FN$ (False Negative): The number of instances that were incorrectly predicted as negative.
 
-  2. Precision
+  3. Precision
   
       Precision measures how many of the instances predicted as positive by the model are actually positive. This provides insight into how reliable the model is
 
       Formula:
-
-      $$
-      \text{Precision} = \frac{TP}{TP + FP}
-      $$
+      <p align="center">
+        $$\text{Precision} = \frac{TP}{TP + FP}$$
+      </p>
       
       - $TP$ (True Positive): The number of instances correctly predicted as positive.
       - $FP$ (False Positive): The number of instances that were incorrectly predicted as positive.
 
-  3. Recall
+  4. Recall
   
       Recall (or also known as sensitivity) measures how many of the truly positive instances the model successfully predicted. This provides an understanding of how well the model can identify positive cases.
 
       Formula:
-
-      $$
-      \text{Recall} = \frac{TP}{TP + FN}
-      $$
+      <p align="center">
+        $$\text{Recall} = \frac{TP}{TP + FN}$$
+      </p>
       
       - $TP$ (True Positive): The number of instances correctly predicted as positive.
       - $FN$ (False Negative): The number of instances that were incorrectly predicted as negative.
   
-  4. F1 - Score
+  5. F1 - Score
   
       F1-score is the harmonic average of precision and recall, providing a balance between the two. This is useful when classes are unbalanced.
 
       Formula:
-
-      $$
-      F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-      $$
+      <p align="center">
+        $$F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$
+      </p>
       
 </p>
 
@@ -532,10 +530,10 @@ The table below presents information on the prediction results of the models use
 ## References
 <div align="justify">
 
-  [1] S. Adi and A. Wintarti, “KOMPARASI METODE SUPPORT VECTOR MACHINE (SVM), K-NEAREST NEIGHBORS (KNN), DAN RANDOM FOREST (RF) UNTUK PREDIKSI PENYAKIT GAGAL JANTUNG,” MATHunesa: Jurnal Ilmiah Matematika, vol. 10, no. 2, pp. 258–268, Jul. 2022, doi: https://doi.org/10.26740/mathunesa.v10n2.p258-268.
-  
-  [2] D. Reza, A. Siregar, and R. Rahmat, “Penerapan Algoritma K-Nearest Neighbord untuk Prediksi Kematian Akibat Penyakit Gagal Jantung,” Scientific Student Journal for Information, Technology and Science, vol. 3, no. 1, pp. 105–112, Jan. 2022, Accessed: Jun. 02, 2024. [Online]. Available: https://journal.ubpkarawang.ac.id/mahasiswa/index.php/ssj/article/view/428
-  
-  [3] Z. Masetic and A. Subasi, “Congestive heart failure detection using random forest classifier,” Computer Methods and Programs in Biomedicine, vol. 130, pp. 54–64, Jul. 2016, doi: https://doi.org/10.1016/j.cmpb.2016.03.020.
+[1] S. Adi and A. Wintarti, “KOMPARASI METODE SUPPORT VECTOR MACHINE (SVM), K-NEAREST NEIGHBORS (KNN), DAN RANDOM FOREST (RF) UNTUK PREDIKSI PENYAKIT GAGAL JANTUNG,” MATHunesa: Jurnal Ilmiah Matematika, vol. 10, no. 2, pp. 258–268, Jul. 2022, doi: https://doi.org/10.26740/mathunesa.v10n2.p258-268.
+
+[2] D. Reza, A. Siregar, and R. Rahmat, “Penerapan Algoritma K-Nearest Neighbord untuk Prediksi Kematian Akibat Penyakit Gagal Jantung,” Scientific Student Journal for Information, Technology and Science, vol. 3, no. 1, pp. 105–112, Jan. 2022, Accessed: Jun. 02, 2024. [Online]. Available: https://journal.ubpkarawang.ac.id/mahasiswa/index.php/ssj/article/view/428
+
+[3] Z. Masetic and A. Subasi, “Congestive heart failure detection using random forest classifier,” Computer Methods and Programs in Biomedicine, vol. 130, pp. 54–64, Jul. 2016, doi: https://doi.org/10.1016/j.cmpb.2016.03.020.
 ‌
 </div>
