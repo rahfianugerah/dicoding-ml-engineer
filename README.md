@@ -14,7 +14,7 @@
 #### Overview
 
 <p align=justify>
-  This repository showcases all my work in the Machine Learning Path, covering course submissions, code resources, and documentations. 
+  This repository showcases my complete work along the Machine Learning Path, including course submissions, code resources, and documentation. Each submission here was created before the course materials were updated (April – August 2024), which means my work reflects the earlier versions of the curriculum. While newer submissions exist in the updated course, this repository preserves my original solutions and experiments, providing a snapshot of my progress during that period.
 </p>
 
 <div align=center>
