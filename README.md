@@ -8,6 +8,7 @@
 ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?logo=scipy&logoColor=%white)
 
 <div align=center>
+  <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/05804469-3724-4e65-99f8-ded715be79c8" />
   <h3>Machine Learning Engineer (2024) Learning Path by Dicoding - Course Submissions, Code Resources, and Docs</h3>
 </div>
 
