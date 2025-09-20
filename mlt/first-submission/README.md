@@ -78,7 +78,7 @@ To understand heart disease data, visualization is done using bar charts and pie
 <p align="justify">
 1. Heart Disease Distribution and Percentages
 <div align="center">
-  <img src="img/f1cat.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/f1cat.png" height=350/>
 </div>
 From the results of the graph above, it can be concluded that the dataset contains 55.4% or around 508 patient data affected by heart failure disease and 44.7% or around 410 patient data, which means that more than 50% of patients are affected by heart failure disease based on the dataset.
 </p>
@@ -86,7 +86,7 @@ From the results of the graph above, it can be concluded that the dataset contai
 <p align="justify">
 2.  Sex Distribution and Percentages
 <div align="center">
-  <img src="img/f2cat.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/f2cat.png" height=350/>
 </div>
 From the results of the graph above, it can be concluded that the dataset contains 79% or around 725 patient data affected by heart failure disease is male and 21% or around 193 patient data is female, which means that patients affected by heart failure disease based on the dataset are mostly male.
 </p>
@@ -94,7 +94,7 @@ From the results of the graph above, it can be concluded that the dataset contai
 <p align="justify">
 3. Chest Pain Type Distribution and Percentages
 <div align="center">
-  <img src="img/f3cat.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/f3cat.png" height=350/>
 </div>
 From the results of the graph above, it can be concluded that the dataset contains 54% or around 496 experiencing chest pain of the ASY type, 22.1% or around 203 of the ATA type, 18.8% or around 173 of the NAP type and 5.01% of the TA type which means that many patients with heart failure disease experience chest pain of the ASY type.
 </p>
@@ -102,7 +102,7 @@ From the results of the graph above, it can be concluded that the dataset contai
 <p align="justify">
 4. Angina Distribution and Percentages
 <div align="center">
-  <img src="img/f4cat.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/f4cat.png" height=350/>
 </div>
 From the results of the graph above, it can be concluded that the dataset contains 59.6% or about 547 patients affected by angina and 40.4% or about 371 patients not affected by angina, which means that patients affected by angina should be vigilant because angina can be an indicator of heart failure.
 </p>
@@ -110,7 +110,7 @@ From the results of the graph above, it can be concluded that the dataset contai
 <p align="justify">
 5. ST Slope Distribution and Percentages
 <div align="center">
-  <img src="img/f5cat.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/f5cat.png" height=350/>
 </div>
 From the results of the graph above, it can be concluded that the dataset contains 50.1% or about 460 have ST slope 'Flat', 43% or about 395 have ST slope type 'Up' and 6.86% or about 63 ST slope 'Down', which means that patients affected by heart failure mostly have ST slope type 'Flat'. (in total 99.96%)
 </p>
@@ -122,27 +122,27 @@ The following is an overview of the distribution in the numeric categories which
 </p>
 
 <div align="center">
-  <img src="img/histnum.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/histnum.png" height=350/>
 </div>
 
 <div align="center">
-  <img src="img/histage.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/histage.png" height=350/>
 </div>
 
 <div align="center">
-  <img src="img/histrbp.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/histrbp.png" height=350/>
 </div>
 
 <div align="center">
-  <img src="img/histchol.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/histchol.png" height=350/>
 </div>
 
 <div align="center">
-  <img src="img/histmaxhr.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/histmaxhr.png" height=350/>
 </div>
 
 <div align="center">
-  <img src="img/histop.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/histop.png" height=350/>
 </div>
 
 ### Multivariate Analysis
@@ -150,8 +150,8 @@ The following is an overview of the distribution in the numeric categories which
 <p align="justify">
 1. Variables Correlations
 <div align="center">
-  <img src="img/corr.png" height=350/>
-  <img src="img/corr2.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/corr.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/corr2.png" height=350/>
 </div>
 From the results of the correlation matrix above, it states that there is no close relationship between variable x and variable y where there is only a relationship between each variable with the same name. The graph also explains that the highest correlation between different variables is 'HeartDisease' and 'OldPeak' with a value of 0.4. In conclude there is no strong relationship between the variables.
 </p>
@@ -162,37 +162,37 @@ From the results of the correlation matrix above, it states that there is no clo
 The following is an overview of the feature analysis of the features in the dataset against the 'HeartDiseases' feature
 
 <div align="center">
-  <img src="img/mhsex.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/mhsex.png" height=350/>
 </div>
 
 From the results of the graph analysis above, it can be concluded that the most affected by heart failure disease are patients who are male.
 
 <div align="center">
-  <img src="img/mhst.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/mhst.png" height=350/>
 </div>
 
 From the results of the graph analysis above, it can be concluded that the most affected by heart failure disease are patients who have ST_slope type 'Flat' while those who are not affected by heart failure disease are patients who have ST_slope type 'Up'.
 
 <div align="center">
-  <img src="img/mhrecg.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/mhrecg.png" height=350/>
 </div>
 
 From the results of the graph analysis above, it can be concluded that many patients affected by heart failure disease have 'RestingECG' with normal levels while those who are not affected by heart failure disease also have normal 'RestigECG', meaning that it is not determined that someone has heart disease based on the 'RestingECG' variable.
 
 <div align="center">
-  <img src="img/mhfbs.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/mhfbs.png" height=350/>
 </div>
 
 From the results of the graph analysis above, it can be concluded that many patients affected by heart failure disease have 'FastingBS' more than 300 while those who are not affected by heart failure disease also have 'FastingBS' more than 300, meaning that it is not determined that someone has heart disease based on the 'FastingBS' variable.
 
 <div align="center">
-  <img src="img/mhang.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/mhang.png" height=350/>
 </div>
 
 From the results of the graph analysis above, it can be concluded that many patients affected by heart failure are patients affected by angina.
 
 <div align="center">
-  <img src="img/mhcpt.png" height=350/>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/mhcpt.png" height=350/>
 </div>
 
 From the results of the graph analysis above, it can be concluded that patients who have a lot of heart failure disease are patients who have chest pain of the 'ASY' type.
@@ -404,7 +404,7 @@ This stage discusses the machine learning model used to solve the problem. This 
 ### Metrics Calculation Result
 
 <div align="center">
-  <img src="img/metrics.png" height=450 /><br><br>
+  <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/first-submission/img/metrics.png" height=450 /><br><br>
 </div>
 
 <p align="justify">
