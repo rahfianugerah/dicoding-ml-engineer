@@ -61,9 +61,9 @@ To understand the information in the dataset used, visualization and data analys
 
 #### Rating Distribution
 
-<div align="center">
+<p align="center">
     <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/final-submission/img/rating.png?raw=true" height=400>
-</div>
+</p>
 
 <p align=justify>
 Based on the results of the visualization above, information can be taken in the form of many books that are still rated 0. Most likely there are many new books that have not been rated or it could be many books that not many people know about.
@@ -71,9 +71,9 @@ Based on the results of the visualization above, information can be taken in the
 
 #### Cleaned Rating Distribution
 
-<div align="center">
+<p align="center">
     <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/final-submission/img/ratingclean.png?raw=true" height=400>
-</div>
+</p>
 
 <p align=justify>
 Based on the results of the visualization above, information can be taken in the form of many books that are rated 8 out of 10 in the first rank with more than 80000 books while books with a score of 10 out of 10 are in the second rank. It can be concluded that books with a score of 8 out of 10 are more widely read and more popular among readers than books with a score of 10 out of 10.
@@ -81,36 +81,36 @@ Based on the results of the visualization above, information can be taken in the
 
 
 #### Top 10 Most Readed Books
-<div align="center">
+<p align="center">
     <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/final-submission/img/books.png?raw=true" height=400>
-</div>
+</p>
 
 <p align=justify>
 Based on the results of the visualization above, information can be taken in the form of a book with the title wild animus has been read by more than 2000 readers, which means that this book is very popular among readers.
 </p>
 
 #### Top 10 Book Authors
-<div align="center">
+<p align="center">
     <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/final-submission/img/author.png?raw=true" height=400>
-</div>
+</p>
 
 <p align=justify>
 Based on the results of the visualization above, information can be drawn that Stepehen King is a best-selling author. Where many people have read books that have been written by him.
 </p>
 
 #### Top 10 Years of Publication
-<div align="center">
+<p align="center">
     <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/final-submission/img/publication.png?raw=true" height=400>
-</div>
+</p>
 
 <p align=justify>
 Based on the results of the visualization above, information can be taken in 2002 as the year with the most book publications. Which means that many books have been published in 2002.
 </p>
 
 #### Top 10 Book Publisher
-<div align="center">
+<p align="center">
     <img src="https://github.com/rahfianugerah/dicoding-ml-engineer/blob/main/mlt/final-submission/img/publisher.png?raw=true" height=400>
-</div>
+</p>
 
 <p align=justify>
 Based on the visualization results above, information can be taken in the form of book publishers that publish the most books is Ballantine Books with more than 30000 books. This shows that Ballantine Books has a large contribution in the publishing industry during the specific time period observed.
@@ -216,10 +216,12 @@ Content-based filtering is a recommendation method that uses attributes or featu
 
 ### Cosine Similarity
 
+<p align=\"center\">
 $$
 \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
 = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} \; \sqrt{\sum_{i=1}^{n} B_i^2}}
 $$
+</p>
 
 <p align="justify">
 Cosine similarity measures the similarity between two vectors and determines whether they point in the same direction by calculating the cosine angle between the two vectors. The smaller the cosine angle, the greater the cosine similarity value. The following are the advantages and disadvantages of cosine similarity including:
@@ -301,12 +303,14 @@ In modeling the recommendation system, the evaluation metric used is precision. 
 
 Recommender system precision:  
 
+<p align=\"center\">
 $$
 P = \frac{\# \text{ of our recommendations that are relevant}}{\# \text{ of items we recommended}}
 $$
+</p>
 
 Based on the previous results, 10 book recommendations were obtained and the relevant items were also 10 so the precision obtained was 10/10 = 1 or 100%. With this precision, the model that has been built is good to be used as a recommendation system with content based filtering.
 
 ## References
 
-[1] &emsp; M. R. A. Zayyad, “Sistem Rekomendasi Buku Menggunakan Metode Content Based Filtering,” dspace.uii.ac.id, Jul. 2021, Accessed: Jun. 26, 2024. [Online]. Available: https://dspace.uii.ac.id/handle/123456789/35942
+[1] M. R. A. Zayyad, “Sistem Rekomendasi Buku Menggunakan Metode Content Based Filtering,” dspace.uii.ac.id, Jul. 2021, Accessed: Jun. 26, 2024. [Online]. Available: https://dspace.uii.ac.id/handle/123456789/35942
